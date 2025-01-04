@@ -1,0 +1,6 @@
+node_modules/
+
+src/guests.ts
+
+firebase.config.js
+firebase-service-account-key.json
