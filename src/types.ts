@@ -9,8 +9,8 @@ export interface Guest {
     lambermontStay: boolean;
   };
   rsvp: {
-    going: boolean;
-    rehearsalDinnerGoing: boolean;
+    going: boolean | null;
+    rehearsalDinnerGoing: boolean | null;
     dinnerOption: string;
     rehearsalDinnerOption: string;
     plusOneName: string;
